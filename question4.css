@@ -1,0 +1,13 @@
+.container{
+    width: 100vw;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+}
+
+img{
+    margin-top: 40px;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}

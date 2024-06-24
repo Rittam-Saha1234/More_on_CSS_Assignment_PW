@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#wrapper{
+    background-color: white;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+.container
+{
+    background-color: #ffd700;
+    width: 320px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 13px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+.card-image{
+    border-radius: 10px;
+    position: relative;
+    bottom: 15px;
+}
+.description{
+    margin-left: 15px;
+}
+.container:hover{
+    opacity: 0.5;
+    cursor: pointer;
+}
